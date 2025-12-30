@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated features (large)
+data/features_*.csv
+data/features_*.csvdir/
+
+# OS
+.DS_Store
+Thumbs.db
