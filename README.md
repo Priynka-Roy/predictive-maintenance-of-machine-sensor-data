@@ -3,8 +3,6 @@
 ## Overview
 This project implements an end-to-end **predictive maintenance (PdM)** pipeline to forecast whether an industrial machine will **fail within the next 24 hours**, using historical telemetry, error, and maintenance logs.
 
-The work was originally prototyped in **PySpark** and then fully **migrated to pandas and scikit-learn** to enable local development, reproducibility, and easier experimentation—while preserving the original modeling logic and time-based assumptions.
-
 The final solution demonstrates:
 - Robust feature engineering on time-series data
 - Correct time-aware train/test splitting
