@@ -1,5 +1,8 @@
 # Predictive Maintenance Using Time-Series Machine Data
 
+### Precision–Recall Curve (Primary)
+![Precision–Recall Curve](reports/pr_curve_h24.png)
+
 ## Overview
 This project implements an end-to-end **predictive maintenance (PdM)** pipeline to forecast whether an industrial machine will **fail within the next 24 hours**, using historical telemetry, error, and maintenance logs.
 
@@ -122,9 +125,6 @@ This represents a strong operational trade-off between catching failures and lim
 ---
 
 ## Visual Results
-
-### Precision–Recall Curve (Primary)
-![Precision–Recall Curve](reports/pr_curve_h24.png)
 
 ### ROC Curve
 ![ROC Curve](reports/roc_curve_h24.png)
